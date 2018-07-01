@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shree.dashboard">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity_Chat" android:theme="@style/ThemeChat"></activity>
+        <activity android:name=".Activity_Friend" android:theme="@style/ThemeFriend"></activity>
+        <activity android:name=".Activity_Gallery" android:theme="@style/ThemeGallery"></activity>
+        <activity android:name=".Activity_Map" android:theme="@style/ThemeMap"></activity>
+        <activity android:name=".Activity_Music" android:theme="@style/ThemeMusic"></activity>
+        <activity android:name=".Activity_Setting" android:theme="@style/ThemeSetting"></activity>
+        <activity android:name=".Activity_Whether" android:theme="@style/ThemeWhether"></activity>
+        <activity android:name=".Activity_Timeline" android:theme="@style/ThemeTimeline"></activity>
+    </application>
+
+</manifest>
