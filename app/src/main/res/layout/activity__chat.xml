@@ -1,9 +1,209 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.shree.dashboard.Activity_Timeline">
+    android:orientation="vertical"
+    tools:context=".Activity_Chat">
 
-</android.support.constraint.ConstraintLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="370dp">
+        <LinearLayout
+            android:background="@drawable/gradientbackground"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:orientation="vertical">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:src="@drawable/dummy"/>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Wiliam Snoe"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="21sp"/>
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="300dp"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Photos"
+                        android:textSize="20dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="125"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:paddingTop="10dp"
+                        android:textColor="@color/startblue" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Followers"
+                        android:textSize="20dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="1205"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:paddingTop="10dp"
+                        android:textColor="@color/startblue" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Following"
+                        android:textSize="20dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="360"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:paddingTop="10dp"
+                        android:textColor="@color/startblue"/>
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="50dp"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/ic_local_post_office_black_24dp"
+                tools:ignore="VectorDrawableCompat" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="willam@gmail.com"
+                android:layout_gravity="center"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                app:srcCompat="@drawable/ic_settings_cell_black_24dp"
+                tools:ignore="VectorDrawableCompat" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:scaleType="centerInside"
+                android:text="+266 225 255"
+                android:layout_gravity="center"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:scaleType="centerInside"
+
+                app:srcCompat="@drawable/ic_group_black_24dp"
+                tools:ignore="VectorDrawableCompat" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="add to group"
+                android:layout_gravity="center"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:scaleType="centerInside"
+                app:srcCompat="@drawable/ic_rate_review_black_24dp"
+                tools:ignore="VectorDrawableCompat" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:text="show all comments"
+                android:layout_gravity="center"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:background="@drawable/buttonstyleleithgradient"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Follow Me"/>
+
+</LinearLayout>

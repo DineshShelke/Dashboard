@@ -14,13 +14,15 @@
         <item name="colorAccent">@color/lime</item>
     </style>
 
-    <style name="ThemeFriend" parent="Theme.AppCompat.Light">
+    <style name="ThemeFriend" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
         <item name="colorPrimary">@color/yellow</item>
         <item name="colorPrimaryDark">@color/yellow_dark</item>
         <item name="colorAccent">@color/yellow</item>
     </style>
 
-    <style name="ThemeGallery" parent="Theme.AppCompat.Light">
+    <style name="ThemeGallery" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/blue</item>
         <item name="colorPrimaryDark">@color/blue_dark</item>
         <item name="colorAccent">@color/blue</item>
@@ -31,6 +33,14 @@
         <item name="colorPrimaryDark">@color/darkblue_dark</item>
         <item name="colorAccent">@color/dark_blue</item>
     </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--<style name="ThemeMusic" parent="Theme.AppCompat.Light">-->
+        <!--<item name="colorPrimary">@color/green</item>-->
+        <!--<item name="colorPrimaryDark">@color/green_dark</item>-->
+        <!--<item name="colorAccent">@color/green</item>-->
+    <!--</style>-->
 
     <style name="ThemeMusic" parent="Theme.AppCompat.Light">
         <item name="colorPrimary">@color/green</item>
@@ -44,13 +54,17 @@
         <item name="colorAccent">@color/violet</item>
     </style>
 
-    <style name="ThemeTimeline" parent="Theme.AppCompat.Light">
+    <style name="ThemeTimeline" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/red_dark</item>
         <item name="colorAccent">@color/red</item>
     </style>
 
-    <style name="ThemeWhether" parent="Theme.AppCompat.Light">
+    <style name="ThemeWhether" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
         <item name="colorPrimary">@color/darkviolet</item>
         <item name="colorPrimaryDark">@color/darkviolet_dark</item>
         <item name="colorAccent">@color/darkviolet</item>
