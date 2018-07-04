@@ -7,22 +7,24 @@
     android:orientation="vertical"
     android:weightSum="10"
     tools:context="com.example.shree.dashboard.Activity_Timeline">
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2"
         android:background="@drawable/background_setting">
+
         <TextView
             android:id="@+id/textGrid"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
-            android:fontFamily="sans-serif-medium"
             android:text="Grid Layout"
             android:textAllCaps="true"
+            android:fontFamily="sans-serif-medium"
             android:textColor="@color/green"
             android:textSize="34sp" />
+
+
     </RelativeLayout>
 
     <GridLayout
@@ -30,7 +32,6 @@
         android:layout_height="0dp"
         android:layout_weight="8"
         android:alignmentMode="alignMargins"
-        android:background="@color/transparent"
         android:columnCount="2"
         android:columnOrderPreserved="false"
         android:padding="14dp"
@@ -46,23 +47,23 @@
             android:layout_marginBottom="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:layout_rowWeight="1"
-            android:clickable="true"
+            app:cardElevation="8dp"
             app:cardCornerRadius="8dp"
-            app:cardElevation="3dp">
+            android:clickable="true"
+            android:layout_rowWeight="1">
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal|center_vertical">
 
                 <ImageView
+                    android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:src="@drawable/ic_filter_1_black_24dp" />
+                    android:src="@drawable/ic_filter_1_black_24dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -71,7 +72,7 @@
                     android:textAlignment="center"
                     android:textColor="#48dfe1"
                     android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"/>
 
             </LinearLayout>
 
@@ -85,23 +86,23 @@
             android:layout_marginBottom="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:layout_rowWeight="1"
-            android:clickable="true"
+            app:cardElevation="8dp"
             app:cardCornerRadius="8dp"
-            app:cardElevation="3dp">
+            android:clickable="true"
+            android:layout_rowWeight="1">
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal|center_vertical">
 
                 <ImageView
+                    android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:src="@drawable/ic_filter_2_black_24dp" />
+                    android:src="@drawable/ic_filter_2_black_24dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -110,7 +111,8 @@
                     android:textAlignment="center"
                     android:textColor="#48dfe1"
                     android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    />
 
             </LinearLayout>
 
@@ -126,23 +128,23 @@
             android:layout_marginBottom="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:layout_rowWeight="1"
-            android:clickable="true"
+            app:cardElevation="8dp"
             app:cardCornerRadius="8dp"
-            app:cardElevation="3dp">
+            android:clickable="true"
+            android:layout_rowWeight="1">
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal|center_vertical">
 
                 <ImageView
+                    android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:src="@drawable/ic_filter_3_black_24dp" />
+                    android:src="@drawable/ic_filter_3_black_24dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -151,7 +153,7 @@
                     android:textAlignment="center"
                     android:textColor="#48dfe1"
                     android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"/>
 
             </LinearLayout>
 
@@ -165,23 +167,23 @@
             android:layout_marginBottom="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:layout_rowWeight="1"
-            android:clickable="true"
+            app:cardElevation="8dp"
             app:cardCornerRadius="8dp"
-            app:cardElevation="3dp">
+            android:clickable="true"
+            android:layout_rowWeight="1">
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal|center_vertical">
 
                 <ImageView
+                    android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:src="@drawable/ic_filter_4_black_24dp" />
+                    android:src="@drawable/ic_filter_4_black_24dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -190,7 +192,8 @@
                     android:textAlignment="center"
                     android:textColor="#48dfe1"
                     android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    />
 
             </LinearLayout>
 
@@ -206,23 +209,23 @@
             android:layout_marginBottom="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:layout_rowWeight="1"
+            app:cardElevation="8dp"
             android:clickable="true"
             app:cardCornerRadius="8dp"
-            app:cardElevation="3dp">
+            android:layout_rowWeight="1">
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal|center_vertical">
 
                 <ImageView
+                    android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:src="@drawable/ic_filter_5_black_24dp" />
+                    android:src="@drawable/ic_filter_5_black_24dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -231,7 +234,7 @@
                     android:textAlignment="center"
                     android:textColor="#48dfe1"
                     android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"/>
 
             </LinearLayout>
 
@@ -245,23 +248,23 @@
             android:layout_marginBottom="16dp"
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
-            android:layout_rowWeight="1"
+            app:cardElevation="8dp"
             android:clickable="true"
             app:cardCornerRadius="8dp"
-            app:cardElevation="3dp">
+            android:layout_rowWeight="1">
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal|center_vertical"
                 android:layout_margin="16dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal|center_vertical">
 
                 <ImageView
+                    android:layout_gravity="center_horizontal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:src="@drawable/ic_filter_6_black_24dp" />
+                    android:src="@drawable/ic_filter_6_black_24dp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -270,7 +273,8 @@
                     android:textAlignment="center"
                     android:textColor="#48dfe1"
                     android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    />
 
             </LinearLayout>
 
